@@ -4,7 +4,8 @@ class Control extends Component {
     render () {
         return (
             <div>
-                Control
+                <button>+</button>
+                <button>-</button>
             </div>
         )
     }

@@ -16,7 +16,7 @@ class Counter extends Component {
     render () {
         return (
             <div>
-                <Value value={this.props.value}/>
+                <Value value={this.props.value} />
                 <Control />
             </div>
         )
