@@ -1,10 +1,10 @@
-import * as actions from '../actions';
+import * as actions from '../actions/ActionTypes';
 
 const initialState = {
     value: 0,
 };
 
-export default function control(state, action) {
+export default function control(state=initialState, action) {
     switch (action.type) {
         case actions.UP:
             return {

@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 class Control extends Component {
     render () {
         return (
             <div>
-                <button>+</button>
-                <button>-</button>
+                <button onClick={this.props.handleUp}>+</button>
+                <button onClick={this.props.handleDown}>-</button>
             </div>
         )
     }
