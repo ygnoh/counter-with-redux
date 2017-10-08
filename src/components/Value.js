@@ -4,7 +4,7 @@ class Value extends Component {
     render () {
         return (
             <div>
-                Value
+                <h1>{this.props.value}</h1>
             </div>
         )
     }
