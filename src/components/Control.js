@@ -1,15 +1,13 @@
 import React, { Component } from 'react'
 
-import Counter from './Counter';
-
-class App extends Component {
+class Control extends Component {
     render () {
         return (
             <div>
-                <Counter />
+                Control
             </div>
         )
     }
 }
 
-export default App
+export default Control
